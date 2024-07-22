@@ -1,0 +1,28 @@
+body{
+    justify-content:center;
+    align-items:center;
+    background-color: #FFFACD;
+}
+
+#canvas{
+    flex-basis: 30px;
+    display:flex;
+    justify-content: center;
+    gap:4px;
+
+}
+
+
+
+.column{
+    display:flex;
+    flex-direction: column;
+    gap:4px;
+}
+
+.square{
+    outline-style: solid ;
+    border: 1px;
+    padding: 2px;
+    padding: 8px;
+}
